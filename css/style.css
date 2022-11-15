@@ -1,0 +1,380 @@
+:root{
+    --mainColor: rgb(251, 232, 80) ;
+    --bgColor:rgb(10, 10, 11) ;
+    --bgColor2:#2e3038 ;
+    --fontColor2: #adadad;
+    --fontColor: #ffffff;
+}
+.container{
+    padding-left:150px ;
+    padding-right: 150px;
+    margin-right: auto ;
+    margin-left: auto ;
+    
+}
+body{
+    background-color: rgb(10, 10, 11) ;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.logo{
+    font-family: 'Prata', serif;
+    color: #ffffff;
+    font-size: 15px;
+}
+.list ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 19px ;
+    font-family: 'Inter', sans-serif;
+    
+}
+.list ul a{
+    text-decoration: none;
+    color:#adadad ;
+}
+.list ul a:hover{
+    background-color: #adadad ;
+    color: black;
+}
+.list ul li{
+    padding-right: 20px;
+}
+.botton{
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+   
+}
+
+.botton a{
+    color: black;
+    background-color:rgb(251, 232, 80) ;
+    width: 100px;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Prata', serif;
+    
+}
+.nav-bar i{
+    color: #ffffff;
+    display: none;
+}
+.header{
+    margin-top:50px ;
+    /* height: 30vh; */
+}
+.header h1{
+    color: #ffffff;
+    font-size: 60px;
+    font-family: 'Prata', serif;
+}
+.header p{
+    color: #adadad;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+}
+.head-logo{
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(6 , 17%);
+    height: 100px;
+}
+.photos{
+    display: grid;
+    grid-template-columns: 50% 50% ;
+    column-gap: 20px;
+    color: #ffffff;
+}
+.photos img{
+    width: 85%;
+}
+.photos h1{
+    font-family: 'Prata', serif;
+}
+.photos p{
+    font-family: 'Inter', sans-serif;
+    color: #adadad;
+    line-height: 1.2;
+}
+
+
+.pars{
+    background-color: #2e3038;
+}
+.par{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.pars .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
+}
+.par h1{
+    font-family: 'Prata', serif;
+    color: #ffffff;
+    font-size: 30px;
+}
+.par p{
+    font-family: 'Inter', sans-serif;
+    color: #adadad;
+    line-height: 1.5;
+
+}
+.social{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: grid;
+    grid-template-columns: 70%;
+}
+.social h1{
+    font-family: 'Prata', serif;
+    color: #ffffff;
+}
+.social p{
+    font-family: 'Inter', sans-serif;
+    color: #adadad;
+    line-height: 1.2;
+}
+.bottom{
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+   
+}
+.bottom a{
+    color: black;
+    background-color:rgb(251, 232, 80) ;
+    width: 100px;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Prata', serif;
+    
+}
+.footer .container{
+    background-color: #2e3038;
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 767px){
+.container{
+        padding-left:20px ;
+        padding-right: 20px;
+        margin-right: auto ;
+        margin-left: auto ;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+}
+.logo{
+    font-family: 'Prata', serif;
+    color: #ffffff;
+    font-size: 10px;
+}
+.list ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 19px ;
+    font-family: 'Inter', sans-serif;
+    display: none;
+    
+}
+.list{
+    position: absolute;
+    margin: 0;
+    right: 25px;
+}
+.list ul a{
+    text-decoration: none;
+    color:black ;
+    
+}
+.list ul li{
+    margin: 25px;
+    text-align: center;
+}
+.nav-bar .list:hover ul{
+    display: block;
+    width: 100vw;
+    background-color: #2e3038;
+    color: black;
+    z-index: 5;
+    margin: 0;
+    padding: 0;
+    background-color: #f6f6f6;
+    position: absolute;
+    right: 0px;
+    top: calc(100%+15px);
+}
+
+.botton{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.botton a{
+    color: black;
+    background-color:rgb(251, 232, 80) ;
+    width: 100px;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Prata', serif;
+    display: none;
+    
+}
+.nav-bar i{
+    color: #ffffff;
+    display: contents;
+    font-size: 30px;
+    position: absolute;
+    left: 0;
+}
+.header{
+    margin-top:50px ;
+}
+.header h1{
+    color: #ffffff;
+    font-size: 32px;
+    font-family: 'Prata', serif;
+}
+.header p{
+    color: #adadad;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.5;
+}
+.head-logo{
+    display: grid; 
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr ;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+.head-logo svg{
+    margin: 10px;
+}
+.photos{
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+}
+.photos img{
+    width: 100%;
+}
+.photos h1{
+    font-family: 'Prata', serif;
+}
+.photos p{
+    font-family: 'Inter', sans-serif;
+    color: #adadad;
+    line-height: 1.2;
+}
+.pars{
+    background-color: #2e3038;
+}
+.par{
+    padding: 20px;
+}
+.pars .container{
+    display: flex;
+    flex-direction: column;
+}
+.par h1{
+    font-family: 'Prata', serif;
+    color: #ffffff;
+    font-size: 30px;
+}
+.par p{
+    font-family: 'Inter', sans-serif;
+    color: #adadad;
+    line-height: 1.5;
+
+}
+.social{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+    
+    
+}
+.social h1{
+    font-family: 'Prata', serif;
+    color: #ffffff;
+}
+.social p{
+    font-family: 'Inter', sans-serif;
+    color: #adadad;
+    line-height: 1.2;
+}
+.bottom{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.bottom a{
+    color: black;
+    background-color:rgb(251, 232, 80) ;
+    width: 100px;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Prata', serif;
+    
+}
+.footer .container{
+    background-color: #2e3038;
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+    align-items: center;
+}
+
+    
+}
